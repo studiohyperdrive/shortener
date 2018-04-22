@@ -3,7 +3,7 @@ import uglify from "rollup-plugin-uglify";
 
 export default [
 	{
-		// plugins: [uglify()],
+		plugins: [uglify()],
 		input: "src/index.js",
 		output: [
 			{ file: pkg.main, format: "cjs" },
