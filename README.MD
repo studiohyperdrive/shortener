@@ -117,7 +117,7 @@ const result = shortener.shorten("https://www.google.com");
 }
 ```
 
-### `.getInfo(url)`
+### `.getInfo()`
 
 Gets information about the current configuration
 
