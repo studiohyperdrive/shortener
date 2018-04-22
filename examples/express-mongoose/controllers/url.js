@@ -2,7 +2,7 @@ const Url = require("../models/Url");
 
 const Shortener = require("@studiohyperdrive/shortener");
 const shortener = new Shortener({
-	target: "http://localhost.be:3000",
+	target: "http://localhost:3000",
 });
 
 module.exports.shorten = (req, res) => {
