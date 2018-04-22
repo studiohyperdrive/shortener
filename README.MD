@@ -28,7 +28,11 @@ Shortener
 
 * * *
 
-## Table of Contents
+## How to install
+
+Install with:
+- NPM: `npm install @studiohyperdrive/shortener`
+- Yarn: `yarn add @studiohyperdrive/shortener`
 
 ## How to use
 
