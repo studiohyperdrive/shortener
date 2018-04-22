@@ -1,6 +1,6 @@
 {
   "name": "@studiohyperdrive/shortener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light-weight JavaScript utility to create an url shortener with.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

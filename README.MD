@@ -3,9 +3,9 @@ Shortener
 </h1>
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/npm/v/@cycle/core.svg?colorB=1C1676"></a>
-<a href="#"><img src="https://img.shields.io/npm/dt/express.svg?colorB=785FC8"></a>
-<a href="#"><img src="https://img.shields.io/bundlephobia/min/react.svg?colorB=82BBED"></a>
+<a href="#"><img src="https://img.shields.io/npm/v/@studiohyperdrive/shortener.svg?colorB=1C1676"></a>
+<a href="#"><img src="https://img.shields.io/npm/dt/@studiohyperdrive/shortener.svg?colorB=785FC8"></a>
+<a href="#"><img src="https://img.shields.io/bundlephobia/min/@studiohyperdrive/shortener.svg?colorB=82BBED"></a>
 <a href="#"><img src="https://img.shields.io/badge/coverage-100%25-green.svg?colorB=FB9ED8"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=F342D7"></a>
 </p>
@@ -15,12 +15,12 @@ Shortener
 <p align="center">
   <b>Light-weight JavaScript utility to create an url shortener with</b>
   <br>
-  <sub>Only ~4kb, no external dependencies, supports NodeJS 6+ and ES2015+</sub>
+  <sub>Only ~3.5kb, no external dependencies, supports NodeJS 6+ and ES2015+</sub>
 </p>
 
 <br>
 
--   **Lightweight:** ~4kb in size, vanilla JavaScript and no external dependencies 🐜
+-   **Lightweight:** ~3.5kb in size, vanilla JavaScript and no external dependencies 🐜
 -   **Fast:** generates 100 shortened urls in less than 5ms 🚤
 -   **Configurable:** lends ultimate control over the output format of the shortened urls 🛠️
 -   **Tested:** 100% code coverage 🎉

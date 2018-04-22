@@ -10,6 +10,7 @@ export const targetValidator = (target) => {
 	}
 
 	if (
+		!~target.indexOf("localhost") &&
 		!new RegExp(
 			"^" +
 				// protocol identifier
