@@ -1,0 +1,17 @@
+{
+  "name": "express-mongoose-example",
+  "version": "1.0.0",
+  "description": "Example implementation in express + mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Enzo Eghermanne <enzo.eghermanne@studiohyperdrive.be>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "mongoose": "5.0.15",
+    "@studiohyperdrive/shortener": "1.0.0"
+  }
+}
