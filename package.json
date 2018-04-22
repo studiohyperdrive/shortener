@@ -11,6 +11,7 @@
     "test": "jest",
     "coverage": "jest --coverage && open ./coverage/lcov-report/index.html"
   },
+  "repository": "https://github.com/studiohyperdrive/shortener",
   "author": "Enzo Eghermanne <enzo.eghermanne@studiohyperdrive.be>",
   "license": "MIT",
   "devDependencies": {
