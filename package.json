@@ -1,0 +1,29 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "Light-weight JavaScript utility to create an url shortener with.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint . --ext js",
+    "format": "npm run lint -- --fix",
+    "test": "jest",
+    "coverage": "jest --coverage && open ./coverage/lcov-report/index.html"
+  },
+  "author": "Enzo Eghermanne <enzo.eghermanne@studiohyperdrive.be>",
+  "license": "MIT",
+  "devDependencies": {
+    "@studiohyperdrive/eslint-config": "3.0.1",
+    "babel-core": "6.26.0",
+    "babel-jest": "22.4.3",
+    "babel-preset-env": "1.6.1",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "jest": "22.4.3",
+    "prettier": "1.11.1",
+    "rollup": "0.57.1",
+    "rollup-plugin-uglify": "3.0.0"
+  }
+}
