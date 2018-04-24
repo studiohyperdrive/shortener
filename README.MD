@@ -62,7 +62,7 @@ The following parameters are accepted in the configuration:
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | `target`<sup>required</sup> | A valid url to append the shortened id to, by default the id is added at the end of the url. <br><br> Optionally, you can pass a placeholder `{id}` to reposition the id anywhere in the url. <br> Example: `https://short.er?id={0}` → `https://shorter?id=SP4C3`  | none     |
 | `length`                    | Length of the shortened id.                                                                                                                                                                                                                                         | 5        |
-| `alphabet`                  | Alphabet with allowed characters for generating the shortened id, <br> you can also choose one the included [presets](#presets).                                                                                                                                    | `base58` |
+| `alphabet`                  | Alphabet with allowed characters for generating the shortened id, <br> you can also choose one of the included [presets](#presets).                                                                                                                                 | `base58` |
 
 Example:
 
